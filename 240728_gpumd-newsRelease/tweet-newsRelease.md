@@ -40,7 +40,7 @@
 
 <figure>
     <div style="text-align: center;">
-    <img src="https://github.com/Yanzhou-Wang/wechat-publicAccount-pict/blob/main/240728_gpumd-newsRelease/zheyong-is-reporting.jpg?raw=true"  width="300">
+    <img src="https://github.com/Yanzhou-Wang/wechat-publicAccount-pict/blob/main/240728_gpumd-newsRelease/zheyong-closing-workshop.jpg?raw=true"  width="300">
     <figcaption> 樊哲勇教授闭幕式致辞。 </figcaption>
     </div>
 </figure>
