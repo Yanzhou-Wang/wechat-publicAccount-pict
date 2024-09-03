@@ -14,7 +14,8 @@
 
 深入理解水的结构和动力学行为在海水淡化、离子分离、电催化和生化过程等各个领域都至关重要。虽然现有的报道表明从头算分子动力学 (ab-initio molecular dynamics， AIMD) 可以准确地描述水的结构，但不论是GGA，metaGGA ，还是混合泛函，都需要额外施加从 30K 到 120K 的人工高温 (artificial high temperature，AHT) 去模拟氢键网络的量子效应。例如PBE+D3模拟室温水（300K，1个大气压）需要用390K，optB88-vdW需要用350K，SCAN（metaGGA）需要330K。
 
-事实上，这种操作不符合逻辑，尤其是对于涉及水的多相混合物体系，例如水-固界面和水溶液，AHT是一种不合适的方法。这是由于其他相中额外的声子被激活，这可能导致对附近水分子动力学行为被高估。其实理解起来很简单，因为热张落～k<sub>B</sub>T，升高温度必然导致系统的热张落被高估。在这项工作中，研究者发现一种SCAN泛函的拓展形式 (regularized SCAN，rSCAN)，可以在没有 AHT 的条件下（即300K）很好地描述液态水的结构和动力学行为。此外，rSCAN 可以重复碱金属、碱土金属和卤素离子水合结构的实验结果。由此说明， rSCAN metaGGA可以成为研究水环境中化学过程的重要工具，尤其是在当前火热的机器学习势领域。相关研究成果以“Ab-initio Simulation of Liquid Water without Artificial High Temperature” 为题，发表在理论与计算化学领域TOP期刊[《Journal of Chemical Theory and Computation》](https://doi.org/10.1021/acs.jctc.4c00650 "Wang et al")上。第一作者为苏州大学能源学院一年级硕士生王晨宇，通讯作者为周柯副教授。
+事实上，这种操作不符合逻辑，尤其是对于涉及水的多相混合物体系，例如水-固界面和水溶液，AHT是一种不合适的方法。这是由于其他相中额外的声子被激活，这可能导致对附近水分子动力学行为被高估。其实理解起来很简单，因为热涨落～k<sub>B</sub>T，升高温度必然导致系统的热涨落被高估。在这项工作中，研究者发现一种SCAN泛函的拓展形式 (regularized SCAN，rSCAN)，可以在没有 AHT 的条件下（即300K）很好地描述液态水的结构和动力学行为。此外，rSCAN 可以重复碱金属、碱土金属和卤素离子水合结构的实验结果。由此说明， rSCAN metaGGA可以成为研究水环境中化学过程的重要工具，尤其是在当前火热的机器学习势领域。相关研究成果以“Ab-initio Simulation of Liquid Water without Artificial High Temperature” 为题，发表在理论与计算化学领域TOP期刊[《Journal of Chemical Theory and Computation》](https://doi.org/10.1021/acs.jctc.4c00650 "Wang et al")上。第一作者为苏州大学能源学院一年级硕士生王晨宇，通讯作者为周柯副教授。
+
 
 <figure>
     <div style="text-align: center;">
@@ -29,6 +30,7 @@
     <figcaption> 表-1. 不同方法下氧-氧径向分布函数g<sub>O-O</sub>(r)的结构性质与实验值的对比。 </figcaption>
     </div>
 </figure>
+
 
 <figure>
     <div style="text-align: center;">
@@ -57,4 +59,4 @@
 
 本工作中的NEP训练和GPUMD计算，均是通过单卡4090的台式机计算得到。
 
-> **供稿**: 王晨宇 || **副编**: 王彦周 || **主编**: 董海宽
+> 供稿: **王晨宇** || 副编: **王彦周** || 校对：**曹硕** || 主编: **董海宽**
