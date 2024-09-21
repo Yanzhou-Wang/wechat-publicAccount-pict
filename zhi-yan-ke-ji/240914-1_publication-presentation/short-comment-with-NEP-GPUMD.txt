@@ -1,0 +1,201 @@
+# 2024
+Title: Raman spectra of amino acids and peptides from machine learning polarizabilities.
+Author:Berger
+Comment: The authors used TNEP and GPUMD to calculate and analyze the Raman spectra of 20 amino acids, showing good agreement with experimental results.
+
+Title: Nuclear quantum effects on the electronic structure of water and ice. 
+Author: Berrens
+Comment:The authors used NEP and GPUMD to study the nuclear quantum effects on the electronic structure of water and ice, finding that NQEs significantly affect the bandgaps, with results consistent with experimental estimates.
+
+Title: Impact of Organic Spacers and Dimensionality on Templating of Halide Perovskites
+Author: Erik Fransson
+Comment: The authors used GPUMD to conduct atomic-scale simulations of 2D halide perovskites, demonstrating how the dynamics and phase transitions of these materials can be tuned by varying the linker molecules and the thickness of the perovskite layers, providing insights into design mechanisms for property optimization.
+
+Title: Interfacial Optimization for AlN/Diamond Heterostructures via Machine Learning Potential Molecular Dynamics Investigation of the Mechanical Properties
+Author: Zijun Qi
+Comment: The authors used NEP and GPUMD to study the mechanical properties of AlN/diamond heterostructures, demonstrating that annealing, strain engineering, and surface roughness reduction significantly improve interfacial stability and mechanical properties, offering solutions for optimizing ultrawide band gap semiconductor heterostructures.
+
+Title: Effect of Interlayer Bonding on Superlubric Sliding of Graphene Contacts: A Machine-Learning Potential Study
+Author: Penghua Ying
+Comment: The authors employed NEP to investigate the impact of interlayer bonding on the superlubric sliding of defected graphene interfaces, revealing that interlayer bonding significantly increases friction in incommensurate graphene interfaces, potentially pushing them out of the superlubric regime.
+
+Title: The thermoelastic properties of monolayer covalent organic frameworks studied by machine-learning molecular dynamics
+Author: Wang
+Comment: The authors used NEP and GPUMD to investigate the thermoelastic properties of monolayer COFs, finding that elastic constants decrease with temperature due to thermally induced softening, which aligns well with MD simulations, providing insights for developing COFs with tailored mechanical behaviors.
+
+Title: Anomalous strain-dependent thermal conductivity in the metal-organic framework HKUST-1
+Author: Fan
+Comment: The authors used GPUMD to study the strain-dependent thermal conductivity of HKUST-1, revealing that compressive and tensile strains cause contradictory effects on conductivity due to shifts in vibrational branches, challenging classical theories and providing insights for thermal management in gas storage applications.
+
+Title: Convergent thermal conductivity in strained monolayer graphene
+Author: Li
+Comment: The authors used GPUMD to study thermal conductivity in strained graphene, demonstrating nonmonotonic variations due to the interplay of phonon lifetime, group velocity, and heat capacity, contributing to the understanding of thermal transport in strained graphene.
+
+Title: Unraveling the mechanisms of thermal boundary conductance at the graphene-silicon interface: Insights from ballistic, diffusive, and localized phonon transport regimes
+Author: Yue
+Comment: The authors employed GPUMD to explore thermal boundary conductance between multilayer graphene and silicon, finding that TBC initially increases with graphene thickness but eventually converges, highlighting the importance of phonon transport regimes in thermal interface design.
+
+==========================================================================================================
+
+# 2023
+
+Title: Tuning the Through-Plane Lattice Thermal Conductivity in van der Waals Structures through Rotational (Dis)ordering
+Author: Eriksson
+Comment: The authors used NEP and GPUMD to study the thermal conductivity in 2D materials with rotational disorder, finding that rotational disorder minimizes through-plane conductivity while maintaining in-plane properties, providing insights for waste heat management in integrated circuits.
+
+Title: Revealing the Free Energy Landscape of Halide Perovskites: Metastability and Transition Characters in CsPbBr3 and MAPbI3
+Author: Fransson
+Comment: The authors used NEP and GPUMD to explore the free energy landscape and phase transitions in halide perovskites, uncovering metastability and first-order transitions that inform phase stability and photovoltaic performance.
+
+Title: Limits of the phonon quasi-particle picture at the cubic-to-tetragonal phase transition in halide perovskites
+Author: Fransson
+Comment: The authors used GPUMD to investigate soft phonon modes in CsPbBr3, demonstrating a breakdown of the phonon quasi-particle picture and the extension of the overdamped regime significantly above the phase transition temperature.
+
+Title: Phase Transitions in Inorganic Halide Perovskites from Machine-Learned Potentials
+Author: Fransson
+Comment: The authors used NEP to model phase transitions in CsPbX3 perovskites, demonstrating the impact of simulation parameters and exchange-correlation functionals on the accuracy of phase transition temperatures, providing benchmarks for potential development.
+
+Title: Sub-Micrometer Phonon Mean Free Paths in Metal–Organic Frameworks Revealed by Machine Learning Molecular Dynamics Simulations
+Author: Ying
+Comment: The authors used NEP and GPUMD to study the thermal transport in MOFs, finding sub-micrometer phonon mean free paths, which suggest significant deviations from conventional diffusive limits in nanocrystalline MOFs.
+
+Title: Lattice dynamics and thermal transport of PbTe under high pressure
+Author: Cheng
+Comment:The authors used NEP as implemented in GPUMD to study high-pressure effects on PbTe, revealing phonon transport mechanisms and pressure-dependent thermal conductivity changes that match experimental observations.
+
+Title: Low lattice thermal conductivity with two-channel thermal transport in the superatomic crystal P⁢H4⁢Al⁢Br4
+Author: Du
+Comment: The authors used GPUMD with NEP to investigate P⁢H4⁢Al⁢Br4, showing ultralow thermal conductivity due to significant phonon localization and four-phonon scattering, highlighting the unique transport properties of superatom-assembled materials.
+
+Title: Mechanisms of temperature-dependent thermal transport in amorphous silica from machine-learning molecular dynamics
+Author: Liang
+Comment: The authors used NEP and GPUMD to study thermal transport in a-SiO2, finding that phonons dominate at low temperatures, while at high temperatures, heat conduction involves a mix of phonon scattering and liquidlike diffusion.
+
+Title: Large-scale machine-learning molecular dynamics simulation of primary radiation damage in tungsten
+Author: Liu
+Comment: The authors developed a NEP-ZBL framework for large-scale GPUMD simulations, accurately modeling radiation damage in tungsten and revealing significant differences in damage patterns between bulk and thin-foil geometries.
+
+Title: Modulation of interface modes for resonance-induced enhancement of the interfacial thermal conductance in pillar-based Si/Ge nanowires
+Author: LiuYZ
+Comment: The authors used NEP and GPUMD to study resonance effects in Si/Ge nanowires, finding that interface mode modulation enhances thermal conductance, providing insights into optimizing nanoscale heat transfer.
+
+Title: Role of high-order lattice anharmonicity in the phonon thermal transport of silver halide Ag⁢𝑋 (𝑋=Cl,Br,I)
+Author: Ouyang
+Comment: The authors used GPUMD with machine learning potentials to explore the thermal transport in Ag⁢𝑋, highlighting the impact of high-order anharmonicity and phonon coherence on ultralow thermal conductivity.
+
+Title: Phonon transport in freestanding SrTiO3 down to the monolayer limit
+Author: Wang
+Comment: The authors used NEP and GPUMD to study phonon transport in SrTiO3 from monolayer to bulk, demonstrating enhanced thermal conductivity in monolayers due to unique atomic vibrations.
+
+Title: Quantum-corrected thickness-dependent thermal conductivity in amorphous silicon predicted by machine learning molecular dynamics simulations
+Author: Wang YZ
+Comment: The authors used NEP and GPUMD to investigate thermal conductivity in amorphous silicon, highlighting the importance of quantum corrections and providing accurate predictions that align with experimental data.
+
+
+Title: Vibrational anharmonicity results in decreased thermal conductivity of amorphous HfO2 at high temperature
+Author: ZhangHG
+Comment: The authors used NEP and GPUMD to study high-temperature thermal transport in amorphous HfO2, revealing that thermal expansion and vibrational mode softening are key mechanisms leading to decreased thermal conductivity at high temperatures.
+
+
+==========================================================================================================
+# 2022
+
+Title: Pressure Stabilized Lithium-Aluminum Compounds with Both Superconducting and Superionic Behaviors
+Author: Wang
+Comment: The authors used NEP and first-principles calculations to identify stable Li-Al compounds under high pressure, discovering Li6Al exhibits both superconducting and superionic behaviors, highlighting its potential as a platform for studying complex physical properties under varying pressure and temperature conditions.
+
+==================================================================================================================================================
+# 2021
+Title: Ultrahigh Convergent Thermal Conductivity of Carbon Nanotubes from Comprehensive Atomistic Modeling
+Author: Barbalinardo
+Comment: The authors used GPUMD to study the thermal conductivity of single-wall carbon nanotubes, demonstrating that while the thermal conductivity is finite, it reaches extremely high values due to quantum effects and long phonon mean free paths, with anharmonic scattering suppressing divergence typically seen in one-dimensional systems.
+
+Title: Interpretation of apparent thermal conductivity in finite systems from equilibrium molecular dynamics simulations
+Author: Dong
+Comment: The authors used GPUMD to interpret the apparent thermal conductivity of finite systems using equilibrium molecular dynamics simulations, showing that the maximum thermal conductivity in such systems matches that from nonequilibrium simulations of shorter lengths, facilitating accurate thermal transport analysis in finite samples.
+
+Title: Extremely anisotropic van der Waals thermal conductors
+Author: Kim
+Comment: The authors used GPUMD to study thermal anisotropy in van der Waals thin films with interlayer rotations, revealing extremely high anisotropy ratios and glass-like thermal transport in the through-plane direction, while maintaining high in-plane conductivity, providing new insights for thermal management in integrated circuits.
+
+
+Title: Mode localization and suppressed heat transport in amorphous alloys
+Author: Lundgren
+Comment: The authors used GPUMD to study thermal conductivity in amorphous silicon-germanium alloys, revealing that mode localization at low frequencies significantly reduces thermal conductivity at low Ge concentrations, with a broad minimum conductivity observed at intermediate Ge concentrations due to gradual mode suppression.
+
+
+===============================================================
+
+# 2020
+
+Title: Phonon confinement and transport in ultrathin films
+Author: Fu
+Comment: The authors used GPUMD to study thermal transport in ultrathin films of Lennard-Jones argon and Tersoff silicon, revealing that phonon confinement significantly influences thermal conductivity, with unexpected increases in conductivity at low thicknesses due to enhanced contributions from low-frequency phonons, challenging traditional bulk-based transport models.
+
+
+
+======================
+
+# Method
+
+## 2024
+
+Title: Combining the D3 dispersion correction with the neuroevolution machine-learned potential
+Author: Ying
+Comment: The authors developed a unified NEP-D3 model by integrating the D3 dispersion correction with the neuroevolution potential (NEP), enhancing the capability of NEP to model both short- and long-ranged interactions, and implemented this approach in the GPUMD package, demonstrating improved accuracy in binding and sliding energy calculations for bilayer graphene and thermal conductivity predictions for metal-organic frameworks.
+
+
+Title: General-purpose machine-learned potential for 16 elemental metals and their alloys
+Author: Song
+Comment: The authors improved the NEP4 framework and developed a unified general-purpose machine-learned potential (UNEP-v1) for 16 elemental metals and their alloys, demonstrating superior accuracy and efficiency in modeling various physical properties and large-scale simulations compared to traditional potentials, marking a step toward a comprehensive MLP covering the periodic table.
+
+
+Title: Tensorial properties via the neuroevolution potential framework: Fast simulation of infrared and Raman spectra
+Author: Xu
+Comment: The authors introduced the tensorial neuroevolution potential (TNEP) framework, an extension of NEP for predicting rank one and two tensors, significantly improving the accuracy and efficiency of simulating infrared and Raman spectra for molecules, liquids, and solids, with implementation available in the GPUMD package.
+
+
+Title: Solute segregation in polycrystalline aluminum from hybrid Monte Carlo and molecular dynamics simulations with a unified neuroevolution potential
+Author: Song
+Comment: The authors developed a hybrid Monte Carlo and molecular dynamics (MCMD) approach integrated into the GPUMD package, utilizing a general-purpose neuroevolution potential (NEP) to study solute segregation in polycrystalline Al, revealing the atomistic mechanisms of solute strengthening and embrittlement that influence the material's strength.
+
+
+Title: Highly efficient path-integral molecular dynamics simulations with GPUMD using neuroevolution potentials: Case studies on thermal properties of materials
+Author: Ying
+Comment: The authors integrated path-integral molecular dynamics (PIMD) methods with neuroevolution potentials (NEP) into the GPUMD package, significantly enhancing the computational efficiency and accuracy of simulations that capture nuclear quantum effects in materials, demonstrated through case studies on LiH, MOFs, and aluminum.
+
+
+## 2023
+
+Title: Large-scale machine-learning molecular dynamics simulation of primary radiation damage in tungsten
+Author: Liu
+Comment: The authors developed the NEP-ZBL framework by integrating neuroevolution potentials (NEP) with the Ziegler-Biersack-Littmark (ZBL) potential, enhancing the efficiency and accuracy of radiation damage simulations in tungsten, and successfully demonstrated large-scale modeling of collision cascades in both bulk and thin-foil configurations.
+
+
+Title: Double-Shock Compression Pathways from Diamond to BC8 Carbon
+Author: Shi
+Comment: The authors developed MSST integrator for shock wave simulation.
+
+
+# 2022
+
+Title: Improving the accuracy of the neuroevolution machine learning potentials for multi-component systems
+Author: Fan
+Comment: The authors introduced an improved descriptor for the neuroevolution potential (NEP2) framework, enhancing regression accuracy in multi-component systems by optimizing different radial function factors during training without increasing computational cost in molecular dynamics simulations.
+
+Title: GPUMD: A package for constructing accurate machine-learned potentials and performing highly efficient atomistic simulations
+Author: Fan
+Comment: The authors enhanced the NEP framework (NEP3) within the GPUMD package by improving radial functions and extending angular descriptors, significantly increasing accuracy and efficiency in atomistic simulations.
+
+# 2021
+Title: Spectral Decomposition of Thermal Conductivity: Comparing Velocity Decomposition Methods in Homogeneous Molecular Dynamics Simulations
+Author: Gabourie
+Comment: The authors compared three spectral thermal conductivity methods—GKMA, SHC, and HNEMA—in homogeneous molecular dynamics simulations, introduced a per-atom virial expression for many-body potentials, and demonstrated that SHC is the most computationally efficient, with their implementation in GPUMD significantly faster than existing methods.
+
+Title: Neuroevolution machine learning potentials: Combining high accuracy and low cost in atomistic simulations and application to heat transport
+Author: Fan
+Comment: The authors developed the neuroevolution potential (NEP) framework, incorporating Chebyshev and Legendre polynomials to create an efficient and accurate descriptor for large-scale molecular dynamics simulations.
+
+Title: Efficient calculation of the lattice thermal conductivity by atomistic simulations with ab-initio accuracy
+Author: Brorsson
+Comment: The authors combined high-order force constant expansions with GPU-accelerated molecular dynamics via the GPUMD package, demonstrating an accurate and efficient approach to calculating lattice thermal conductivity in materials with varied phonon renormalization, from low to high conductivity systems.
